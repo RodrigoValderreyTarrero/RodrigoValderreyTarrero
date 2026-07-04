@@ -17,7 +17,7 @@
 
 I'm an AI Engineer at **INNOCV Solutions**, and I just wrapped up a double Master's in Computer Engineering and Applied Artificial Intelligence at **Universidad Carlos III de Madrid (UC3M)**.
 
-My thesis work centers on **UAV-based search and rescue**: multi-robot coordination, probabilistic sensor and footprint modeling, Monte Carlo simulation, and footprint-guided planning heuristics, combined with zero-shot and open-vocabulary object detection (YOLO variants, Faster R-CNN, GroundingDINO, OWL-v2) on aerial imagery.
+My thesis work centers on **UAV-based search and rescue**: multi-robot coordination, probabilistic sensor and footprint modeling, Monte Carlo simulation, and footprint-guided planning heuristics, combined with zero-shot and open-vocabulary object detection (YOLO variants, YOLO-World, Faster R-CNN, GroundingDINO, OWL-v2) on aerial imagery.
 
 I care most about computer vision, embedded AI, HPC, robotics, and squeezing more performance out of ML pipelines.
 
@@ -54,7 +54,7 @@ I care most about computer vision, embedded AI, HPC, robotics, and squeezing mor
 Probabilistic sensor and footprint modeling for search in uncertain environments, integrating Digital Elevation Models with occlusion handling and Monte Carlo simulation, accelerated with CUDA/PyCUDA.
 
 **🔍 Zero-Shot Detection for Search and Rescue Missions**
-Benchmarking classical detectors against zero-shot and open-vocabulary approaches (GroundingDINO, OWL-v2) to approximate sensor probability functions for search pipeline integration.
+Benchmarking classical detectors against zero-shot and open-vocabulary approaches (GroundingDINO, YOLO-World, OWL-v2) to approximate sensor probability functions for search pipeline integration.
 
 **🤖 Agentic RAG Chatbot** *(Bertrandt Group)*
 End-to-end RAG system with LangChain and ChromaDB, local inference via Ollama, role-based access control, and automated RAGAS evaluation covering faithfulness, context precision, MRR, and recall.
