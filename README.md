@@ -1,5 +1,6 @@
-<h1 align="center">Hi, I'm Rodrigo 👋</h1>
-<h3 align="center">AI Engineer · Applied AI, Computer Vision & ML Systems · HPC & Embedded AI</h3>
+# Hi, I'm Rodrigo 👋
+
+### AI & Software Engineer · Autonomous Systems · Robotics · Embedded AI · HPC
 
 <p align="center">
   <a href="https://linkedin.com/in/rodrigo-valderrey-tarrero">
@@ -12,52 +13,98 @@
 </p>
 
 ---
+### 🚀 About Me
 
-### 🚀 About me
+I'm a Software Engineer at **UTEK (Unmanned Teknologies Applications)**, where I work on the development of software for **autonomous and unmanned systems**, particularly unmanned surface vehicles (USVs).
 
-I'm an AI Engineer at **INNOCV Solutions**, and I just wrapped up a double Master's in Computer Engineering and Applied Artificial Intelligence at **Universidad Carlos III de Madrid (UC3M)**.
+My work focuses on **C++ development, autonomous navigation, control systems, sensor integration, and onboard software**, bringing together software engineering and real-world robotic systems.
 
-My thesis work centers on **UAV-based search and rescue**: multi-robot coordination, probabilistic sensor and footprint modeling, Monte Carlo simulation, and footprint-guided planning heuristics, combined with zero-shot and open-vocabulary object detection (YOLO variants, YOLO-World, Faster R-CNN, GroundingDINO, OWL-v2) on aerial imagery.
+I hold a double Master's degree in **Computer Engineering and Applied Artificial Intelligence** from **Universidad Carlos III de Madrid (UC3M)**.
 
-I care most about computer vision, embedded AI, HPC, robotics, and squeezing more performance out of ML pipelines.
+My academic research explored **UAV-based Search and Rescue (SAR)**, combining multi-robot coordination, probabilistic sensor modeling, terrain-aware planning, Monte Carlo simulation, and computer vision.
 
+I'm particularly interested in the intersection of **autonomous systems, robotics, embedded AI, and high-performance computing (HPC)** — developing intelligent systems that interact with the physical world efficiently and reliably.
+
+```text
+🔭 Currently focused on:  Autonomous systems, navigation & sensor fusion
+🌱 Currently learning:    Embedded systems, CUDA optimization & robotics
+💬 Ask me about:          C++, computer vision, UAVs, HPC & applied AI
+📫 Reach me:              rodrigovalderreytarrero@gmail.com
 ```
-🔭 Currently building:  RAG systems, drone search planning algorithms
-🌱 Currently learning:  CUDA optimization, zero-shot detection pipelines
-💬 Ask me about:        SAR planning, sensor modeling, RAG evaluation, MLOps
-📫 Reach me:            rodrigovalderreytarrero@gmail.com
-```
+
+---
+
+### 🏷️ Project Nomenclature — Since November 2026
+
+Starting in **November 2026**, I've introduced two prefixes to distinguish how projects in my repositories are developed:
+
+**`FHM` — Fully Hand-Made Projects**
+
+Projects designed, implemented, and debugged entirely by me, **without generative AI assistance**. These showcase my independent problem-solving abilities, programming skills, and understanding of the underlying technologies.
+
+**`AIA` — AI-Assisted Projects**
+
+Projects developed with the support of **AI tools and agentic coding workflows**. I remain responsible for the architecture, technical decisions, integration, validation, and final results, while leveraging AI to accelerate development.
+
+#### Why this distinction?
+
+With modern AI tools, it's increasingly easy to build impressive-looking projects without necessarily understanding the code, algorithms, or engineering decisions behind them.
+
+I believe a GitHub portfolio should demonstrate not only **what someone can build, but also how they build it and what they actually understand**.
+
+That's why I've decided to make this distinction transparent.
+
+I want to showcase both my ability to **engineer solutions independently, without AI**, and my ability to **effectively use agentic AI as a development tool**.
+
+Both approaches have value, but they demonstrate different skills.
+
+*These prefixes describe the development methodology, not the quality or complexity of a project. Projects created before November 2026 may not follow this convention.*
 
 ---
 
 ### 🛠️ Tech Stack
 
+**Programming Languages**
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,csharp,dotnet,js,html,css,bash&theme=dark" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn&theme=dark" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,linux,flask,mysql,postgres&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,bash,js&theme=dark" />
 </p>
 
-**LLMs & RAG:** LangChain · ChromaDB · Ollama · RAGAS · Prompt Engineering · Vector Databases
-**MLOps:** MLflow · Optuna · CI/CD · REST APIs
-**HPC:** OpenMP · MPI · PySpark · CUDA · CuPy
+**Artificial Intelligence & Computer Vision**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn&theme=dark" />
+</p>
+
+**Development Tools & Infrastructure**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,git,github,cmake,flask&theme=dark" />
+</p>
+
+**Autonomous Systems & Robotics:** Navigation · Sensor Fusion · PID Control · CAN Bus · NMEA 2000 · AIS · UAV / USV
+
+**AI & LLMs:** Computer Vision · Object Detection · LangChain · ChromaDB · Ollama · RAG · Agentic AI
+
+**HPC & Parallel Computing:** CUDA · CuPy · OpenMP · MPI · PySpark · SLURM
+
+**MLOps & Optimization:** MLflow · Optuna · RAGAS · REST APIs
 
 ---
 
-### 🎯 Featured Research
+### 🎯 Featured Research & Projects
 
 **🛸 Footprint-Guided Planning for UAV Search and Rescue**
-Probabilistic sensor and footprint modeling for search in uncertain environments, integrating Digital Elevation Models with occlusion handling and Monte Carlo simulation, accelerated with CUDA/PyCUDA.
 
-**🔍 Zero-Shot Detection for Search and Rescue Missions**
-Benchmarking classical detectors against zero-shot and open-vocabulary approaches (GroundingDINO, YOLO-World, OWL-v2) to approximate sensor probability functions for search pipeline integration.
+Probabilistic sensor and footprint modeling for autonomous search in uncertain environments. Integration of Digital Elevation Models, terrain occlusion, Monte Carlo simulation, and GPU-accelerated computations to support multi-robot search planning.
 
-**🤖 Agentic RAG Chatbot** *(Bertrandt Group)*
-End-to-end RAG system with LangChain and ChromaDB, local inference via Ollama, role-based access control, and automated RAGAS evaluation covering faithfulness, context precision, MRR, and recall.
+**🔍 Open-Vocabulary Object Detection for SAR Missions**
+
+Evaluation of conventional and zero-shot object detectors, including YOLO, Faster R-CNN, Grounding DINO, YOLO-World, and OWL-v2, for aerial search-and-rescue imagery. Research focused on detection performance and the integration of empirical sensor models into autonomous planning.
+
+**🤖 Agentic RAG Chatbot — Bertrandt Group**
+
+Development of an end-to-end Retrieval-Augmented Generation system using LangChain and ChromaDB, including local LLM inference with Ollama, role-based access control, and automated evaluation with RAGAS.
 
 ---
 
@@ -74,4 +121,6 @@ End-to-end RAG system with LangChain and ChromaDB, local inference via Ollama, r
 
 ---
 
-<p align="center"><i>Open to junior/mid ML Engineering, Computer Vision, and HPC roles — remote or hybrid.</i></p>
+<p align="center">
+  <i>Interested in Autonomous Systems, Robotics, Embedded AI, Computer Vision & HPC opportunities.</i>
+</p>
